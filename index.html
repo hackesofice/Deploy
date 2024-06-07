@@ -73,7 +73,7 @@
             event.preventDefault();
             const username = document.getElementById('username').value;
             const baseUrl = 'https://app.koyeb.com/deploy?type=git&repository=github.com/';
-            const repoPath = `${username}/SavingFromFormData&branch=main&name=SavingFromFormData&service_type=web&instance_type=free&ports=5000;http;/&env[dotenv]=Hakr&builder=dockerfile&dockerfile=./Dockerfile`;
+            const repoPath = `${username}/SavingFromFormData&branch=main&name=connectify&service_type=web&instance_type=free&ports=5000;http;/&env[dotenv]=Hakr&builder=dockerfile&dockerfile=./Dockerfile`;
             const fullUrl = baseUrl + repoPath;
             window.location.href = fullUrl;
         });
